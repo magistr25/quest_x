@@ -47,6 +47,19 @@ header {
 
 }
 
+.a-href {
+  text-decoration: none;
+  color: #333;
+  margin-left: 10px;
+}
+.aside-card {
+  width: 261px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.orange-text {
+  color: #ff7f50;
+}
 .cover-mobile1 {
   display: none;
 }
@@ -61,8 +74,15 @@ header {
 
 }
 
+
 .mobile {
   display: none;
+  width: 360px;
+  height: 500px;
+}
+
+.block {
+  width: 830px;
 }
 
 h2, h3 {
@@ -79,6 +99,37 @@ h3 {
   font-size: 28px;
   margin-top: 40px;
   margin-left: 10px;
+}
+.f-s-14 {
+  font-size: 14px;
+}
+.m-t--15 {
+  margin-top: -15px;
+}
+.m-b-40 {
+  margin-bottom: 40px;
+}
+.w-261 {
+  width: 261px;
+}
+.w-800 {
+  width: 800px;
+}
+.w-810 {
+  width: 800px;
+}
+.m-0-auto {
+  margin: 0 auto;
+}
+.w-437 {
+  width: 437px;
+}
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.w-100vw {
+  width: 100vw;
 }
 
 .card-container-text {
