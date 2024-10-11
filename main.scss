@@ -11,6 +11,30 @@ body {
 
 }
 
+.wrapper {
+  background-color: #F5F5F5;
+  max-width: 1440px;
+  margin: 56px auto;
+  padding-top: 25px;
+}
+header {
+  position: fixed;
+  height: 56px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 5000;
+  padding: 0 140px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  .logo {
+    width: 152px;
+    height: 40px;
+    margin-left: 10px;
+  }
+
+}
+
 .main {
   display: flex;
   justify-content: center;
@@ -28,11 +52,41 @@ h2, h3 {
 
 h3 {
   font-size: 28px;
+  margin-top: 40px;
+  margin-left: 10px;
 }
+
+.card-container-text {
+padding: 20px;
+  z-index: 2000;
+  height: 361px;
+}
+.card-title {
+  font-weight: 800;
+  font-size: 36px;
+  color: #424242;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 550px;
+}
+.card-text {
+  width: 297px;
+}
+.card-otz {
+  width: 261px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 20px 20px 60px 20px;
+
+}
+
 .text-muted {
   vertical-align: super;
-  font-size: small;
+  font-size: 13px;
+  color: #868686;
 }
+
 
 .tags {
   display: flex;
@@ -125,13 +179,13 @@ h3 {
   margin-bottom: 5px;
 }
 
-p {
+.font-14 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 130%;
   letter-spacing: 0;
-  color: #424242;
+  color: #5E5E5E;
 }
 .width {
   width: 1100px;
